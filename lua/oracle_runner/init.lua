@@ -13,13 +13,13 @@ function M.setup()
 	}
 
 	local highlights = {
-		Normal = { fg = colors.fg, bg = colors.bg },
+		Normal = { fg = colors.fg, bg = colors.gray_dark },
 		Comment = { fg = colors.gray_light, italic = true },
 		Keyword = { fg = colors.blue, bold = true },
 		String = { fg = colors.yellow },
 		Number = { fg = colors.red },
 		LineNr = { fg = colors.gray_light },
-		CursorLine = { bg = colors.gray_dark },
+		CursorLine = { bg = colors.gray_light },
 		StatusLine = { fg = colors.brown, bg = colors.gray_dark },
 		Visual = { bg = colors.brown, fg = colors.bg },
 
