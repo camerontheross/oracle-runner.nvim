@@ -24,8 +24,9 @@ function M.setup()
 		Visual = { bg = colors.brown, fg = colors.bg },
 
 		-- treesitter
-		["@variable"] = { fg = colors.red },
-		["@keyword"] = { fg = colors.blue },
+		["@variable"] = { fg = colors.fg },
+		["@keyword"] = { fg = colors.blue, bold = true },
+		["@function"] = { fg = colors.red },
 
 		TelescopeBorder = { fg = colors.gray_light },
 	}
